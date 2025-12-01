@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = ">=1.13.0"
+scikit-roughsets = {editable = true, git = "https://github.com/paudan/scikit-roughsets.git"}
+scikit-learn = "*"
+scipy = "*"
+
+[dev-packages]
+pylint = "*"
+mypy = "*"
+"autopep8" = "*"
+pysnooper = "*"
+
+[requires]
+python_version = "3.6"
