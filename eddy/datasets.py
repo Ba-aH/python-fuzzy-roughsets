@@ -75,7 +75,7 @@ def vehicle():
     import pandas as pd
 
     # Use pandas to read the CSV - more robust than np.genfromtxt
-    df = pd.read_csv('data/vehicle846(0_18_0)4.csv')
+    df = pd.read_csv('data/pima768(8_0_0)2.csv')
 
     # Map classes to numeric values
     class_map = {
